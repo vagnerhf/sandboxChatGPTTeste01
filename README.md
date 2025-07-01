@@ -13,5 +13,6 @@ Este projeto é uma estrutura inicial para um jogo 2D rodando no navegador. Util
    npm install
    ```
 2. Abra o arquivo `index.html` em um servidor estático (por exemplo, utilizando `npx serve` ou `python -m http.server`) e acesse pelo navegador.
+3. A página exibe uma tela inicial com instruções. Pressione **Enter** para iniciar e **Esc** para voltar à tela de apresentação.
 
 A partir desse ponto você pode expandir a lógica do jogo dentro de `src/main.js`.
