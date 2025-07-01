@@ -13,7 +13,16 @@ async function loadAndRenderSVG(path, x = 0, y = 0) {
   ctx.restore();
 }
 
+
 let gameState = 'title'; // 'title' ou 'playing'
+
+// Exemplo de carregamento dos gráficos principais
+(async () => {
+  await loadAndRenderSVG('assets/logo.svg', 350, 20);
+  await loadAndRenderSVG('assets/player.svg', 100, 500);
+  await loadAndRenderSVG('assets/enemy.svg', 600, 100);
+  await loadAndRenderSVG('assets/bullet.svg', 120, 480);
+})();
 
 async function drawTitleScreen() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
