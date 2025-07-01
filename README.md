@@ -5,7 +5,7 @@ Este projeto é uma estrutura inicial para um jogo 2D rodando no navegador. Util
 ## Estrutura
 - `index.html` – Página principal contendo o elemento `<canvas>`.
 - `src/` – Código JavaScript do jogo (`main.js`).
-- `assets/` – Recursos gráficos (exemplo: `logo.svg`).
+- `assets/` – Recursos gráficos (exemplo: `logo.svg`, `player.svg`, `enemy.svg`, `bullet.svg`).
 
 ## Como executar
 1. Instale as dependências:
